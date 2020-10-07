@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+//import {useTable} from "react";
+import Componentone from './Componentone';
+import Banner from './Banner';
+import Forms from './Forms';
+import Qoutes from './Qoutes'; 
+import Paragraph from './Paragraph';
+import Images from './Images';
+import Tables from './Tables';
+import Links from './Links';
+import Lists from './Lists';
+import Heading from './Heading';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+ <Componentone/> 
+ <Banner/>
+ <Forms/>
+ <Paragraph/>
+ <Qoutes/>
+ <Images/>
+ <Tables/>
+ <Links/>
+ <Lists/>
+ <Heading/>
+ </div>
   );
+  
+ 
+  
 }
 
+  
 export default App;
+
