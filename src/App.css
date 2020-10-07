@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
+=======
+  background-color: #3B5F93;
+>>>>>>> d07408ae362152c60d6f06aad98391ec5c0071bc
 }
 
 .App-logo {
@@ -28,6 +32,10 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d07408ae362152c60d6f06aad98391ec5c0071bc
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d07408ae362152c60d6f06aad98391ec5c0071bc
 }
